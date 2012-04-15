@@ -1,33 +1,46 @@
-require 'yaml'
-require 'pg'
+require './polimapper'
+require 'json'
+JOBS = [
+  {
+    :table => 'forma1cand',
+    :fields => [
+      {:name => "Candidate First Name", :required => true},
+      {:name => "Candidate Middle Initial", :required => false},
+      {:name => "Candidate Last Name", :required => true},
+      {:name => "Office Sought", :required => false},
+      {:name => "Office Title", :required => false},
+      {:name => "Office Description", :required => false},
+      {:name => "hswid", :required => true}
+    ],
+    :model => { # polimapper only likes string literals
+      "address" => [
+        # no effing clue
+      ],
+      "phone" => [
+        # nuttin
+      ],
+      "id" => [
+        # don't know anything here
+      ],
+      "name" => {
+        "first"  => "Candidate First Name",
+        "middle" => "Candidate Middle Initial",
+        "last"   => "Candidate Last Name",
+        "full"   => nil
+      },
+      "misc" => {
+        "office_sought" => "Office Sought",
+        "office_title" => "Office Title",
+        "office_desc" => "Office Description"
+      },
+      "source" => {
+        "doc" => :forma1cand,
+        "id" => "hswid"
+      }
+    }
+  }
+]
 
-connection = false
-fml_names = Array.new
-single_field_names = Array.new
-
-def conn
-  @connection = @connection || PG::Connection.new(YAML.load_file('./db.yml'))
-  return @connection
-end
-
-def a1cand
-  names = []
-  result = conn.exec('SELECT "Candidate Last Name", "Candidate First Name", "Candidate Middle Initial" FROM FORMA1CAND')
-  result.each do |res|
-    unless(res['Candidate First Name'].nil? || res['Candidate Last Name'].nil?)
-      names.push ({:fname => res['Candidate First Name'].strip, :lname => res['Candidate Last Name'].strip, :mname => (res["Candidate Middle Initial"].nil? ? "" : res["Candidate Middle Initial"].strip)})
-    end
-  end
-  return names
-end
-
-def a1misc
-  names = []
-  result = conn.exec('SELECT "Name" FROM FORMA1CAND')
-  result.each do |res|
-    unless(res['Name'].nil?)
-      names.push (res["Name"].strip)
-    end
-  end
-  return names
+JOBS.each do |job|
+  puts PoliMapper.fill_model(job[:table], job[:model], job[:fields]).to_json
 end

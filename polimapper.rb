@@ -54,6 +54,8 @@ class PoliMapper
       res = map_hash(model, data)
     elsif(model.kind_of? String)
       res = map_string(model, data)
+    elsif(model.kind_of? Symbol)
+      res = map_symbol(model, data)
     end
     return res
   end
@@ -76,5 +78,9 @@ class PoliMapper
   
   def self.map_string(model, data)
     return data[model].to_s
+  end
+
+  def self.map_symbol(model, data)
+    return model
   end
 end
