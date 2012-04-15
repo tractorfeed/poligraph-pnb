@@ -1,6 +1,5 @@
 require 'yaml'
 require 'pg'
-require './db'
 
 connection = false
 fml_names = Array.new
@@ -22,4 +21,13 @@ def a1cand
   return names
 end
 
-
+def a1misc
+  names = []
+  result = conn.exec('SELECT "Name" FROM FORMA1CAND')
+  result.each do |res|
+    unless(res['Name'].nil?)
+      names.push (res["Name"].strip)
+    end
+  end
+  return names
+end
