@@ -1,0 +1,1 @@
+#Committee Name|Form ID Number|Committee ID|Postmark Date|Date Received|Microfilm Number|Expenditure Name|Expend Phone|Expend Address|Expend City|Expend State|Expend Zip|Election Date|Recipient Name|Recipient Address|Expenditure Date|Amount|Description|Date Last Revised|Last Revised By

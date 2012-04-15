@@ -1,0 +1,1 @@
+#Candidate First Name|Candidate Middle Initial|Candidate Last Name|Candidate Address|Candidate City|Candidate State|Candidate Zip|Form CFLA-8 ID Number|Form ID Number|Contributor ID Number|Contribution Type|Contribution Date|Cash Contribution|In-Kind Contribution|Total Contribution|Purpose of In-Kind Contribution|Contributor Name

@@ -1,0 +1,1 @@
+#Candiate First Name|Candidate Middle Initial|Candidate Last Name|Candidate Address|Candidate City|Candidate State|Candidate Zip|Candidate Committee Name|Committee Phone|Form CFLA-9 ID|Form ID Number|Payee Name|Payee Address|Payee City|Payee State|Purpose of Expenditure|Expenditure Date|Expenditure Amount

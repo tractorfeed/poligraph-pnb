@@ -1,0 +1,1 @@
+#Candidate First Name|Candidate Middle Initial|Candidate Last Name|Candidate Address|Candidate City|Candidate State|Candidate Zip|Form ID Number|Candidate ID|Postmark Date|Date Received|Microfilm Number|Election Year|Office Sought|District|Candidate Phone|Last Revised Date|Last Revised By

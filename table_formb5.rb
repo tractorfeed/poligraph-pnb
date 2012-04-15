@@ -1,0 +1,1 @@
+#Committee Name|Committee ID|Date Received|Date Last Revised|Last Revised By|Postmark Date|Microfilm Number|Contributor ID|Type of Contributor|Nature of Contribution|Date of Contribution|Amount|Occupation|Employer|Place of Business|Contributor Name

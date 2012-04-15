@@ -1,0 +1,1 @@
+#Committee Name|Form B9 ID|Form ID|Contributor ID|Occupation|Employer|Previous Contributions|Cash Contribution|In-Kind Contribution|Unpaid Pledges|Total Contribution|Entry Date|Contributor Organization Name|Contributor Last Name|Contributor First Name|Contributor Middle Initial

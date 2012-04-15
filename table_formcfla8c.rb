@@ -1,0 +1,1 @@
+#Candidate First Name|Candidate Middle Initial|Candidate Last Name|Candidate Address|Candidate City|Candidate State|Candidate Zip|Form CFLA-8 ID Number|Form ID Number|Payee Name|Payee Address|Payee City|Payee State|Expenditure Description|Expenditure Date|Expenditure Cash Amount|Expenditure In-Kind Amount|Total Expenditure

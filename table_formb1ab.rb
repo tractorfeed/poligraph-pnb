@@ -1,0 +1,1 @@
+#Committee Name|Committee ID|Date Received|Type of Contributor|Contributor ID|Contribution Date|Cash Contribution|In-Kind Contribution|Unpaid Pledges|Contributor Last Name|Contributor First Name|Contributor Middle Initial|Contributor Organization Name|Contributor Address|Contributor City|Contributor State|Contributor Zipcode

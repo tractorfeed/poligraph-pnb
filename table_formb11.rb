@@ -1,0 +1,1 @@
+#Committee Name|Form ID|Committee ID|Postmark Date|Date Received|Microfilm Number|Recipient Name|Recipient Address|Recipient City|Recipient State|Recipient Zip|Recipient Phone|Expenditure Date|Amount|Candidate ID|Candidate Support/Oppose|Ballot Question ID|Ballot Support/Oppose|Date Last Revised|Last Revised By|Candidate/Ballot Name

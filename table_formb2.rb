@@ -1,0 +1,1 @@
+#Committee Name|Committee Address|Committee City|Committee State|Committee Zip|Committee ID|Date Received|Date Last Revised|Last Revised By|Postmark Date|Microfilm Number|Election Date|Type of Filing|Nature Of Filing|Report Start Date|Report End Date|Financial Activity
