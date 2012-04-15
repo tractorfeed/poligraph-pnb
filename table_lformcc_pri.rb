@@ -2,15 +2,13 @@ require './polimapper'
 require 'json'
 JOBS = [
   {
-    :table => :lformc,
+    :table => 'lformcc',
     :fields => [
-    # just Official Contact info
       # {:name => "Document ID", :required=> false},
       # {:name => "Date Received", :required=> false},
       # {:name => "Postmark Date", :required=> false},
       # {:name => "Year Covered", :required=> false},
-      # {:name => "Nature Of Filing", :required=> false},
-      # {:name => "Amended Report", :required=> false},
+      # {:name => "Month Covered", :required=> false},
       # {:name => "Receipts And Expenditures 1", :required=> false},
       # {:name => "Receipts And Expenditures 2", :required=> false},
       # {:name => "Summary Line 1", :required=> false},
@@ -45,30 +43,44 @@ JOBS = [
       # {:name => "Lobbyist Residence City", :required=> false},
       # {:name => "Lobbyist Residence State", :required=> false},
       # {:name => "Lobbyist Residence Zip", :required=> false},
-      # {:name => "Lobbyist Residence Phone", :required=> false},
+      # {:name => "Lobbyist Residence Phone", :required=> false}
       # {:name => "Principal ID", :required=> false},
-      # {:name => "Principal Name", :required=> false},
-      # {:name => "Principal Office Address", :required=> false},
-      # {:name => "Principal Office City", :required=> false},
-      # {:name => "Principal Office State", :required=> false},
-      # {:name => "Principal Office Zip", :required=> false},
-      # {:name => "Principal Office Phone", :required=> false},
-      {:name => "Principal Official Contact", :required=> false}
-      #{:name => "Principal Nature of Business", :required=> false}
+      {:name => "Principal Name", :required=> false},
+      {:name => "Principal Office Address", :required=> false},
+      {:name => "Principal Office City", :required=> false},
+      {:name => "Principal Office State", :required=> false},
+      {:name => "Principal Office Zip", :required=> false},
+      {:name => "Principal Office Phone", :required=> false},
+      # {:name => "Principal Official Contact", :required=> false},
+      # {:name => "Principal Nature of Business", :required=> false}
     ],
     :model => { # polimapper only likes string literals
             "name" => {
-              "full" => "Principal Official Contact"
+              "full" => "Principal Name"
             },
-            "address" => [],
-            "phone" => [],
-            "source" => {
-              "doc" => :lformc,
-              "id" => "hswid"
-            }
-          }
-        }
-       ]
+            "address" => [
+              {
+              "type" => :office,
+              "street" => "Principal Office Address",
+              "city" => "Principal Office City",
+              "state" => "Principal Office State",
+              "zip" => "Principal Office Zip"
+              }
+                         ],
+      "phone" => [
+                  {
+        "type"  => :office,
+        "number" => "Principal Office Phone"
+                  }
+                 ],
+
+      "source" => {
+        "doc" => :lformcc,
+        "id" => "hswid"
+      }
+    }
+  }
+]
 
 JOBS.each do |job|
   puts PoliMapper.fill_model(job[:table], job[:model], job[:fields]).to_json
