@@ -1,1 +1,11 @@
-#Committee Name|Committee ID|Date Received|Date of Billing|Creditor Name|Creditor Address|Description|Amount Unpaid|Paid|Date Paid|Amount Paid
+{:name => "Committee Name", :required=> false},
+{:name => "Committee ID", :required=> false},
+{:name => "Date Received", :required=> false},
+{:name => "Date of Billing", :required=> false},
+{:name => "Creditor Name", :required=> false},
+{:name => "Creditor Address", :required=> false},
+{:name => "Description", :required=> false},
+{:name => "Amount Unpaid", :required=> false},
+{:name => "Paid", :required=> false},
+{:name => "Date Paid", :required=> false},
+{:name => "Amount Paid", :required=> false}

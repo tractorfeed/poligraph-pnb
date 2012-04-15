@@ -1,1 +1,11 @@
-#Committee Name|Committee ID|Date Received|Lender Name|Lender Address|Loan Date|Amount Received|Amount Repaid|Amount Forgiven|Paid by 3rd Party|Guarantor
+{:name => "Committee Name", :required=> false},
+{:name => "Committee ID", :required=> false},
+{:name => "Date Received", :required=> false},
+{:name => "Lender Name", :required=> false},
+{:name => "Lender Address", :required=> false},
+{:name => "Loan Date", :required=> false},
+{:name => "Amount Received", :required=> false},
+{:name => "Amount Repaid", :required=> false},
+{:name => "Amount Forgiven", :required=> false},
+{:name => "Paid by 3rd Party", :required=> false},
+{:name => "Guarantor", :required=> false}

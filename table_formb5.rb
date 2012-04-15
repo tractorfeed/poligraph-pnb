@@ -1,1 +1,16 @@
-#Committee Name|Committee ID|Date Received|Date Last Revised|Last Revised By|Postmark Date|Microfilm Number|Contributor ID|Type of Contributor|Nature of Contribution|Date of Contribution|Amount|Occupation|Employer|Place of Business|Contributor Name
+{:name => "Committee Name", :required=> false},
+{:name => "Committee ID", :required=> false},
+{:name => "Date Received", :required=> false},
+{:name => "Date Last Revised", :required=> false},
+{:name => "Last Revised By", :required=> false},
+{:name => "Postmark Date", :required=> false},
+{:name => "Microfilm Number", :required=> false},
+{:name => "Contributor ID", :required=> false},
+{:name => "Type of Contributor", :required=> false},
+{:name => "Nature of Contribution", :required=> false},
+{:name => "Date of Contribution", :required=> false},
+{:name => "Amount", :required=> false},
+{:name => "Occupation", :required=> false},
+{:name => "Employer", :required=> false},
+{:name => "Place of Business", :required=> false},
+{:name => "Contributor Name", :required=> false}

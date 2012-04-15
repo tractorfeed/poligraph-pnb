@@ -1,1 +1,6 @@
-#Candidate Last Name|Candidate First Name|Candidate ID|Date Received|Real Property|Other Property
+{:name => "Candidate Last Name", :required=> false},
+{:name => "Candidate First Name", :required=> false},
+{:name => "Candidate ID", :required=> false},
+{:name => "Date Received", :required=> false},
+{:name => "Real Property", :required=> false},
+{:name => "Other Property", :required=> false}

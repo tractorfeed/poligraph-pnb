@@ -1,1 +1,14 @@
-#Form B10 ID|Form ID|Recipient Name|Permanent Address|Permanent City|Permanent State|Permanent Zip|Temporary Address|Temporary City|Temporary State|Temporary Zip|Expenditure Date|Amount|Description
+{:name => "Form B10 ID", :required=> false},
+{:name => "Form ID", :required=> false},
+{:name => "Recipient Name", :required=> false},
+{:name => "Permanent Address", :required=> false},
+{:name => "Permanent City", :required=> false},
+{:name => "Permanent State", :required=> false},
+{:name => "Permanent Zip", :required=> false},
+{:name => "Temporary Address", :required=> false},
+{:name => "Temporary City", :required=> false},
+{:name => "Temporary State", :required=> false},
+{:name => "Temporary Zip", :required=> false},
+{:name => "Expenditure Date", :required=> false},
+{:name => "Amount", :required=> false},
+{:name => "Description", :required=> false}

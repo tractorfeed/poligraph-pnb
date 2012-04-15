@@ -1,1 +1,17 @@
-#Candidate First Name|Candidate Middle Initial|Candidate Last Name|Candidate Address|Candidate City|Candidate State|Candidate Zip|Form CFLA-8 ID Number|Form ID Number|Contributor ID Number|Contribution Type|Contribution Date|Cash Contribution|In-Kind Contribution|Total Contribution|Purpose of In-Kind Contribution|Contributor Name
+{:name => "Candidate First Name", :required=> false},
+{:name => "Candidate Middle Initial", :required=> false},
+{:name => "Candidate Last Name", :required=> false},
+{:name => "Candidate Address", :required=> false},
+{:name => "Candidate City", :required=> false},
+{:name => "Candidate State", :required=> false},
+{:name => "Candidate Zip", :required=> false},
+{:name => "Form CFLA-8 ID Number", :required=> false},
+{:name => "Form ID Number", :required=> false},
+{:name => "Contributor ID Number", :required=> false},
+{:name => "Contribution Type", :required=> false},
+{:name => "Contribution Date", :required=> false},
+{:name => "Cash Contribution", :required=> false},
+{:name => "In-Kind Contribution", :required=> false},
+{:name => "Total Contribution", :required=> false},
+{:name => "Purpose of In-Kind Contribution", :required=> false},
+{:name => "Contributor Name", :required=> false}

@@ -1,1 +1,13 @@
-#ID|Committee Name|Statement Due|Due Date|Date Filed|Amount|Status|Reduced|Order Signed|Date Paid|Candidate Last Name|Candidate First Name|Interest Paid
+{:name => "ID", :required=> false},
+{:name => "Committee Name", :required=> false},
+{:name => "Statement Due", :required=> false},
+{:name => "Due Date", :required=> false},
+{:name => "Date Filed", :required=> false},
+{:name => "Amount", :required=> false},
+{:name => "Status", :required=> false},
+{:name => "Reduced", :required=> false},
+{:name => "Order Signed", :required=> false},
+{:name => "Date Paid", :required=> false},
+{:name => "Candidate Last Name", :required=> false},
+{:name => "Candidate First Name", :required=> false},
+{:name => "Interest Paid", :required=> false}

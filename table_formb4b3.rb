@@ -1,1 +1,9 @@
-#Committee Name|Committee ID|Date Received|Payee Name|Payee Address|Purpose Of Disbursement|Date of Disbursement|Amount|Expense Category
+{:name => "Committee Name", :required=> false},
+{:name => "Committee ID", :required=> false},
+{:name => "Date Received", :required=> false},
+{:name => "Payee Name", :required=> false},
+{:name => "Payee Address", :required=> false},
+{:name => "Purpose Of Disbursement", :required=> false},
+{:name => "Date of Disbursement", :required=> false},
+{:name => "Amount", :required=> false},
+{:name => "Expense Category", :required=> false}

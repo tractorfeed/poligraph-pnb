@@ -1,1 +1,17 @@
-#Committee Name|Committee Address|Committee City|Committee State|Committee Zip|Committee ID|Date Received|Date Last Revised|Last Revised By|Postmark Date|Microfilm Number|Election Date|Type of Filing|Nature Of Filing|Report Start Date|Report End Date|Financial Activity
+{:name => "Committee Name", :required=> false},
+{:name => "Committee Address", :required=> false},
+{:name => "Committee City", :required=> false},
+{:name => "Committee State", :required=> false},
+{:name => "Committee Zip", :required=> false},
+{:name => "Committee ID", :required=> false},
+{:name => "Date Received", :required=> false},
+{:name => "Date Last Revised", :required=> false},
+{:name => "Last Revised By", :required=> false},
+{:name => "Postmark Date", :required=> false},
+{:name => "Microfilm Number", :required=> false},
+{:name => "Election Date", :required=> false},
+{:name => "Type of Filing", :required=> false},
+{:name => "Nature Of Filing", :required=> false},
+{:name => "Report Start Date", :required=> false},
+{:name => "Report End Date", :required=> false},
+{:name => "Financial Activity", :required=> false}

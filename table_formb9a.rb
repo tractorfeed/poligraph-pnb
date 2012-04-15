@@ -1,1 +1,16 @@
-#Committee Name|Form B9 ID|Form ID|Contributor ID|Occupation|Employer|Previous Contributions|Cash Contribution|In-Kind Contribution|Unpaid Pledges|Total Contribution|Entry Date|Contributor Organization Name|Contributor Last Name|Contributor First Name|Contributor Middle Initial
+{:name => "Committee Name", :required=> false},
+{:name => "Form B9 ID", :required=> false},
+{:name => "Form ID", :required=> false},
+{:name => "Contributor ID", :required=> false},
+{:name => "Occupation", :required=> false},
+{:name => "Employer", :required=> false},
+{:name => "Previous Contributions", :required=> false},
+{:name => "Cash Contribution", :required=> false},
+{:name => "In-Kind Contribution", :required=> false},
+{:name => "Unpaid Pledges", :required=> false},
+{:name => "Total Contribution", :required=> false},
+{:name => "Entry Date", :required=> false},
+{:name => "Contributor Organization Name", :required=> false},
+{:name => "Contributor Last Name", :required=> false},
+{:name => "Contributor First Name", :required=> false},
+{:name => "Contributor Middle Initial", :required=> false}
